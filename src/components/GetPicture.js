@@ -28,6 +28,7 @@ export const GetPicture = () => {
 
     useEffect (()=>{
         getPokemon();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
 
